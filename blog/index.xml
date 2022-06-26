@@ -8,6 +8,15 @@
     <language>zhutw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://kyuchia.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>My second post</title>
+      <link>https://kyuchia.github.io/blog/second_post/</link>
+      <pubDate>Sun, 26 Jun 2022 18:43:47 +0800</pubDate>
+      
+      <guid>https://kyuchia.github.io/blog/second_post/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
       <title>My first post</title>
       <link>https://kyuchia.github.io/blog/test/</link>
       <pubDate>Sun, 26 Jun 2022 11:43:47 +0800</pubDate>
