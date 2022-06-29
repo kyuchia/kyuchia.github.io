@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interactive on Yu Chia Kuo ㅣ Portfolio</title>
+    <link>https://kyuchia.github.io/categories/interactive/</link>
+    <description>Recent content in Interactive on Yu Chia Kuo ㅣ Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 01 Jun 2022 15:58:10 +0800</lastBuildDate><atom:link href="https://kyuchia.github.io/categories/interactive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grid Graphics</title>
+      <link>https://kyuchia.github.io/portfolio/8.grid-graphics/</link>
+      <pubDate>Wed, 01 Jun 2022 15:58:10 +0800</pubDate>
+      
+      <guid>https://kyuchia.github.io/portfolio/8.grid-graphics/</guid>
+      <description>Creative Coding | p5.js | 2022</description>
+    </item>
+    
+    <item>
+      <title>Star Cluster</title>
+      <link>https://kyuchia.github.io/portfolio/9.star-cluster/</link>
+      <pubDate>Mon, 30 May 2022 15:58:10 +0800</pubDate>
+      
+      <guid>https://kyuchia.github.io/portfolio/9.star-cluster/</guid>
+      <description>Creative Coding | p5.js | 2022</description>
+    </item>
+    
+  </channel>
+</rss>

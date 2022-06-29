@@ -1,29 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yu Chia Kuo ㅣ Portfolio </title>
+    <title>Yu Chia Kuo ㅣ Portfolio</title>
     <link>https://kyuchia.github.io/</link>
-    <description>Recent content on Yu Chia Kuo ㅣ Portfolio </description>
+    <description>Recent content on Yu Chia Kuo ㅣ Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zhutw</language>
-    <lastBuildDate>Sun, 26 Jun 2022 18:43:47 +0800</lastBuildDate><atom:link href="https://kyuchia.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 27 Jun 2022 18:19:33 +0800</lastBuildDate><atom:link href="https://kyuchia.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My second post</title>
-      <link>https://kyuchia.github.io/blog/second_post/</link>
-      <pubDate>Sun, 26 Jun 2022 18:43:47 +0800</pubDate>
+      <title>Grid Graphics</title>
+      <link>https://kyuchia.github.io/portfolio/8.grid-graphics/</link>
+      <pubDate>Wed, 01 Jun 2022 15:58:10 +0800</pubDate>
       
-      <guid>https://kyuchia.github.io/blog/second_post/</guid>
-      <description>測試字型 font-family 無序符號 無序符號 無序符號 程式碼
-[markup][markup.highlight]style = &amp;#39;monokai&amp;#39; imHungry ?</description>
+      <guid>https://kyuchia.github.io/portfolio/8.grid-graphics/</guid>
+      <description>Creative Coding | p5.js | 2022</description>
     </item>
     
     <item>
-      <title>My first post</title>
-      <link>https://kyuchia.github.io/blog/test/</link>
-      <pubDate>Sun, 26 Jun 2022 11:43:47 +0800</pubDate>
+      <title>Star Cluster</title>
+      <link>https://kyuchia.github.io/portfolio/9.star-cluster/</link>
+      <pubDate>Mon, 30 May 2022 15:58:10 +0800</pubDate>
       
-      <guid>https://kyuchia.github.io/blog/test/</guid>
-      <description>Owl bet you&amp;#39;ll lose this staring contest 🦉 pic.twitter.com/eJh4f2zncC</description>
+      <guid>https://kyuchia.github.io/portfolio/9.star-cluster/</guid>
+      <description>Creative Coding | p5.js | 2022</description>
+    </item>
+    
+    <item>
+      <title>Fluctuations of Kombucha</title>
+      <link>https://kyuchia.github.io/portfolio/1.fluctuations-of-kombucha/</link>
+      <pubDate>Wed, 05 Jan 2022 20:56:42 +0800</pubDate>
+      
+      <guid>https://kyuchia.github.io/portfolio/1.fluctuations-of-kombucha/</guid>
+      <description>#All #Generative #Music #SelectedProjects
+Sound Design | Sonification Project | 2022
+An interdisciplinary project combined with generative music and food biotechnology. Used Max/MSP to pair experimental data with sound parameters and show the fluctuation of microorganisms in the fermentation state.</description>
+    </item>
+    
+    <item>
+      <title>Rescore Work</title>
+      <link>https://kyuchia.github.io/portfolio/2.rescore-work/</link>
+      <pubDate>Wed, 22 Dec 2021 16:44:46 +0800</pubDate>
+      
+      <guid>https://kyuchia.github.io/portfolio/2.rescore-work/</guid>
+      <description>#All #Music #RescoreWork
+Fearful Odds Rescore Work | For orchestration | 2021
+A rescore of a scene from the film, Oblivion (2013) Ice Slide Rescore Work | For orchestration | 2021</description>
+    </item>
+    
+    <item>
+      <title>The Dream Chapter</title>
+      <link>https://kyuchia.github.io/portfolio/6.the-dream-chapter/</link>
+      <pubDate>Mon, 22 Feb 2021 14:58:10 +0800</pubDate>
+      
+      <guid>https://kyuchia.github.io/portfolio/6.the-dream-chapter/</guid>
+      <description>#All #Music
+Graduation Song Demo | For jazz band | 2021
+Graduation Song demo of National Chung Hsing University in 2021. Worked as the Song Arranger and Lyricis.</description>
+    </item>
+    
+    <item>
+      <title>Piano Cover Channel</title>
+      <link>https://kyuchia.github.io/portfolio/7.ytchannel/</link>
+      <pubDate>Sun, 30 Aug 2020 15:58:10 +0800</pubDate>
+      
+      <guid>https://kyuchia.github.io/portfolio/7.ytchannel/</guid>
+      <description>#All #Music #SelectedProjects
+[Channel Link] [Sheet Music Here ♩ ]
+Kucia Piano YouTube Channel | Aug. 2020 – Present
+Film, TV Original Soundtrack, Jazz, K-pop and Anime Music.</description>
     </item>
     
     <item>
@@ -69,168 +113,6 @@
       
       <guid>https://kyuchia.github.io/blog/the-10-biggest-product-stories-of-2019/</guid>
       <description>Black Lines brand identity, by &amp;amp; Smith Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager.</description>
-    </item>
-    
-    <item>
-      <title>KIO-TAPE BRAND</title>
-      <link>https://kyuchia.github.io/portfolio/kio-tape-2/</link>
-      <pubDate>Mon, 23 Dec 2019 20:56:42 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/portfolio/kio-tape-2/</guid>
-      <description>The “Seamless Watch” watch has all the features that users expect in a digital watch, and some unusual features.</description>
-    </item>
-    
-    <item>
-      <title>USE-LESS BRAND</title>
-      <link>https://kyuchia.github.io/portfolio/use-less-brand/</link>
-      <pubDate>Mon, 23 Dec 2019 15:58:10 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/portfolio/use-less-brand/</guid>
-      <description>The “Seamless Watch” watch has all the features that users expect in a digital watch, and some unusual features.</description>
-    </item>
-    
-    <item>
-      <title>OSEN CLOCK</title>
-      <link>https://kyuchia.github.io/portfolio/osen-clock/</link>
-      <pubDate>Mon, 23 Dec 2019 15:56:43 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/portfolio/osen-clock/</guid>
-      <description>The “Seamless Watch” watch has all the features that users expect in a digital watch, and some unusual features.</description>
-    </item>
-    
-    <item>
-      <title>SEAMLESS WATCH</title>
-      <link>https://kyuchia.github.io/portfolio/seamless-watch/</link>
-      <pubDate>Mon, 23 Dec 2019 15:55:44 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/portfolio/seamless-watch/</guid>
-      <description>The “Seamless Watch” watch has all the features that users expect in a digital watch, and some unusual features.</description>
-    </item>
-    
-    <item>
-      <title>KIO TAPE</title>
-      <link>https://kyuchia.github.io/portfolio/kio-tape/</link>
-      <pubDate>Mon, 23 Dec 2019 15:44:46 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/portfolio/kio-tape/</guid>
-      <description>The “Seamless Watch” watch has all the features that users expect in a digital watch, and some unusual features.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://kyuchia.github.io/blog/post-1/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/blog/post-1/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://kyuchia.github.io/blog/post-10/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/blog/post-10/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://kyuchia.github.io/blog/post-11/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/blog/post-11/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://kyuchia.github.io/blog/post-12/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/blog/post-12/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://kyuchia.github.io/blog/post-13/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/blog/post-13/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://kyuchia.github.io/blog/post-2/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/blog/post-2/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://kyuchia.github.io/blog/post-3/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/blog/post-3/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://kyuchia.github.io/blog/post-4/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/blog/post-4/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://kyuchia.github.io/blog/post-5/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/blog/post-5/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://kyuchia.github.io/blog/post-6/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/blog/post-6/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://kyuchia.github.io/blog/post-7/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/blog/post-7/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://kyuchia.github.io/blog/post-8/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/blog/post-8/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://kyuchia.github.io/blog/post-9/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://kyuchia.github.io/blog/post-9/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     
   </channel>
