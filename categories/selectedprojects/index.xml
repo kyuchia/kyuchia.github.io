@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SelectedProjects on Yu Chia Kuo ㅣ Portfolio</title>
+    <link>https://kyuchia.github.io/categories/selectedprojects/</link>
+    <description>Recent content in SelectedProjects on Yu Chia Kuo ㅣ Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 05 Jan 2022 20:56:42 +0800</lastBuildDate><atom:link href="https://kyuchia.github.io/categories/selectedprojects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fluctuations of Kombucha</title>
+      <link>https://kyuchia.github.io/portfolio/3.fluctuations-of-kombucha/</link>
+      <pubDate>Wed, 05 Jan 2022 20:56:42 +0800</pubDate>
+      
+      <guid>https://kyuchia.github.io/portfolio/3.fluctuations-of-kombucha/</guid>
+      <description>Sound Design | Sonification Project | 2022
+An interdisciplinary project combined with generative music and food biotechnology. Used Max/MSP to pair experimental data with sound parameters and show the fluctuation of microorganisms in the fermentation state.</description>
+    </item>
+    
+    <item>
+      <title>Piano Cover Channel</title>
+      <link>https://kyuchia.github.io/portfolio/6.ytchannel/</link>
+      <pubDate>Sun, 30 Aug 2020 15:58:10 +0800</pubDate>
+      
+      <guid>https://kyuchia.github.io/portfolio/6.ytchannel/</guid>
+      <description>[Channel Link] [Sheet Music Here ♩ ]
+Kucia Piano YouTube Channel | Aug. 2020 – Present
+Film, TV Original Soundtrack, Jazz, K-pop and Anime Music.</description>
+    </item>
+    
+  </channel>
+</rss>
