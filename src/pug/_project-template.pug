@@ -1,0 +1,44 @@
+// src/pug/_project-template.pug
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title #{pageTitle} | Yu Chia Kuo ㅣ 郭又嘉
+    link(rel="icon", type="image/x-icon", href="../assets/favicon.ico")
+    link(href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic", rel="stylesheet")
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css", rel="stylesheet")
+    link(href="../css/styles.css", rel="stylesheet")
+
+  body#page-top(class="project-page")
+    include ./_navbar.pug
+
+    .container.pt-5.mt-5
+      h1.text-center.mb-4 #{pageTitle}
+
+      if carouselImages && carouselImages.length
+        #projectCarousel.carousel.slide.mb-4.mt-5(data-bs-ride="carousel")
+          .carousel-inner
+            each img, index in carouselImages
+              .carousel-item(class= index === 0 ? 'active' : '')
+                img.d-block.w-100(src=img.url, alt=img.alt)
+          button.carousel-control-prev(type="button", data-bs-target="#projectCarousel", data-bs-slide="prev")
+            span.carousel-control-prev-icon(aria-hidden="true")
+            span.visually-hidden Previous
+          button.carousel-control-next(type="button", data-bs-target="#projectCarousel", data-bs-slide="next")
+            span.carousel-control-next-icon(aria-hidden="true")
+            span.visually-hidden Next
+
+      .site-project-single-description !{descriptionHTML}
+
+      .d-flex.justify-content-between.mt-5
+        a.btn.btn-outline-secondary(href=prevHref) &larr; Previous
+        a.btn.btn-outline-secondary(href=nextHref) Next &rarr;
+
+    include ./_footer.pug
+
+    script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js")
+    script(src="../js/scripts.js")
