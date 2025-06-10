@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to display JSON content in the HTML
     function displayContent(data) {
-        let container = document.getElementById('content');
+        let container = document.getElementById('json-content');
         let html = '';
         let years = Object.keys(data).reverse();
 
