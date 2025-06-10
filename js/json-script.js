@@ -33,7 +33,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 const year = key;
                 html += `<h2 id="${year}">${year}</h2><hr /><ul>`;
                 for (let entry of data[year]) {
-                    const entryWithLinks = makeLinksClickable(entry);
+                    // Make links clickable
+                    let entryWithLinks = makeLinksClickable(entry);
+
+                    // Bold name variations
+                    entryWithLinks = entryWithLinks.replace(/Yu[-\s]?Chia Kuo/g, '<strong>Yu-Chia Kuo</strong>')
+
                     html += `<li><p>${entryWithLinks}</p></li>`;
                 }
                 html += `</ul><p><br /></p>`;
