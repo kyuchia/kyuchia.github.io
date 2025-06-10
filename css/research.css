@@ -1,14 +1,15 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
-  margin: 30px;
+  /* margin: 30px;/*
+  /* padding-top: 100px;  optional: give space below navbar */
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
-h1 {
+/* h1 {
   text-align: center;
   color: #343a40;
 }
@@ -54,7 +55,7 @@ h2.year {
   margin-top: 10px;
   color: #333;
   word-wrap: break-word;
-}
+} */
 
 .toggle-buttons button {
   background: none;
