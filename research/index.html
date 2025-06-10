@@ -12,6 +12,7 @@
         rel="stylesheet" type="text/css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
   <link href="../css/styles.css" rel="stylesheet" />
+  <link href="../css/research.css" rel="stylesheet" />
 
 </head>
 
@@ -49,6 +50,29 @@
 <!-- Main Research Section -->
 <section class="container research-section">
     <h2 class="text-center mb-4">Research</h2>
+
+    <!-- Add Toggle Buttons Here -->
+    <div class="toggle-buttons" style="text-align: right; margin-bottom: 20px;">
+        <button onclick="showView('text')" title="Show List View">
+            <i class="fa-solid fa-list-ul" aria-hidden="true"></i>
+        </button>
+        <button onclick="showView('gallery')" title="Show Grid View">
+            <i class="fa-solid fa-grip" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <!-- List View -->
+    <div id="text-view">
+        <div id="json-content">
+            <!-- index.html text content will be dynamically loaded here -->
+        </div>
+    </div>
+
+    <!-- Gallery View -->
+    <div id="gallery-view" class="hidden">
+        <div id="poster-gallery-container"></div>
+    </div>
+    </section>
 
     <div class="research-entry">
         <div class="conf">ICMC 2025</div>
@@ -170,6 +194,12 @@
       });
     });
 </script>
+
+<!-- Load JSON content into #json-content -->
+<script src="../js/json-script.js"></script>
+
+<!-- Load thumbnail gallery -->
+<script src="../js/research.js"></script>
 
 
 </body>
