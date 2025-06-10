@@ -44,5 +44,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Load JSON content on page load
-    loadJSON();
+    // loadJSON();
+    setTimeout(loadJSON, 50);
 });
