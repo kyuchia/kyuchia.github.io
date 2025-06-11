@@ -11291,9 +11291,22 @@ body.dark-mode {
 
 @media (max-width: 768px) {
     .carousel-inner img {
-        height: 300px;
-        /* 小螢幕時降低高度 */
+        height: 300px; /* 小螢幕時降低高度 */
     }
+
+    .project-page .content-wrapper {
+        max-width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* 限制 project 子頁內容寬度 */
+.project-page .content-wrapper {
+    max-width: 960px; /* 或你想要的寬度，例如 80% */
+    margin: 0 auto; /* 水平置中 */
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 
