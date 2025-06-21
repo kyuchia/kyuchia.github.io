@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- #include file="head.html" -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Art Portfolio | Yu Chia Kuo ㅣ 郭又嘉</title>
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+        rel="stylesheet" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+  <link href="../css/styles.css" rel="stylesheet" />
+  <link href="../css/research.css" rel="stylesheet" />
+
+</head>
+
+<body class="light-mode research-page" id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top py-3 custom-navbar" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="/">
+                <strong>Yu Chia Kuo</strong><br><small>郭又嘉</small>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/portfolio/">Art Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
+                    <li class="nav-item"><a class="nav-link"
+                            href="https://www.youtube.com/channel/UCFdI5R6o6_9YCIt56tPUfcg" target="_blank"><i
+                                class="bi bi-youtube"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/kyuchia" target="_blank"><i
+                                class="bi bi-github"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/yu-chia-kuo-b45307237"
+                            target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="mailto:kuodmusic@gmail.com"><i
+                                class="bi bi-envelope-fill"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Main Research Section -->
+<section class="container research-section">
+    <h2 class="text-center mb-4">Research</h2>
+
+    <!-- Add Toggle Buttons Here -->
+    <div class="toggle-buttons" style="text-align: right; margin-bottom: 20px;">
+        <button onclick="showView('text')" title="Show List View">
+            <i class="fa-solid fa-list-ul" aria-hidden="true"></i>
+        </button>
+        <button onclick="showView('gallery')" title="Show Grid View">
+            <i class="fa-solid fa-grip" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <!-- List View -->
+    <div id="text-view">
+        <div id="json-content">
+            <!-- JSON content inserted dynamically -->
+        </div>
+    </div>
+
+    <!-- Gallery View -->
+    <div id="gallery-view" class="hidden">
+        <div id="poster-gallery-container"></div>
+        <!-- Move your research-entry blocks HERE: -->
+
+        <div class="research-entry">
+            <div class="conf">ICMC 2025</div>
+            <h3 class="title">Seascape Serenity: Unveiling the Underwater Soundscape</h3>
+            <div class="authors">Yu-Chia Kuo, Sin-Yu Deng, Tak-Cheung Hui</div>
+            <div class="links">
+                <span>In press</span>
+            </div>
+            <p class="summary">An immersive 49-channel sound installation highlighting the acoustic ecologies of marine
+                environments through informatics and composition.</p>
+        </div>
+
+        <div class="research-entry">
+            <div class="conf">NIME 2025</div>
+            <h3 class="title">Turntable-Based Electronic Music and Embodied Audience Interaction</h3>
+            <div class="authors">Tak-Cheung Hui, Xiaoqiao Li, Yu-Chia Kuo</div>
+            <div class="links">
+                <span>In press</span>
+            </div>
+            <p class="summary">Explores embodied performance and audience interaction through turntable-based systems in
+                electronic music settings.</p>
+        </div>
+
+        <div class="research-entry">
+            <div class="conf">SIGGRAPH Asia 2024</div>
+            <h3 class="title">Tale of Tales: Recontextualizing the Sugar Industry's History in Taiwan and Japan through
+                Interdisciplinary Art</h3>
+            <div class="authors">Tak-Cheung Hui, Yu-Chia Kuo</div>
+            <div class="links">
+                <a href="https://dl.acm.org/doi/10.1145/3680530.3695449" target="_blank">[Paper]</a>
+            </div>
+            <p class="summary">Combines sound, puppetry, and visuals to reinterpret colonial sugar industry histories
+                through immersive storytelling.</p>
+        </div>
+
+        <div class="research-entry">
+            <div class="conf">SIGGRAPH 2024</div>
+            <h3 class="title">A Concert in a Vanished Church: Contextualizing Peace Island’s Auditory History with Modern
+                Technology</h3>
+            <div class="authors">Tak-Cheung Hui, Yu-Chia Kuo</div>
+            <div class="links">
+                <a href="https://dl.acm.org/doi/10.1145/3664218" target="_blank">[Paper]</a>
+            </div>
+            <p class="summary">Revives a lost cultural soundscape using geolocated memory, archival audio, and interactive
+                storytelling.</p>
+        </div>
+
+        <div class="research-entry">
+            <div class="conf">ISMIR 2024 (LBD)</div>
+            <h3 class="title">S3: A Symbolic Music Dataset for Computational Music Analysis of Symphonies</h3>
+            <div class="authors">Zih-Syuan Lin*, Yu-Chia Kuo*, Tzu-Yun Hung, Wei-Yang Lin, Ya-Hsuan Chu, Ting-Kang Wang,
+                Jing-Heng Huang, Chien Chang,
+                Christofer Julio, Gloria Hsieh, and Li Su</div>
+            <div class="links">
+                <a href="https://ismir2024program.ismir.net/lbd_463.html" target="_blank">[Paper]</a>
+                <a href="https://github.com/iis-mctl/mctl-symphony-dataset" target="_blank">[GitHub]</a>
+            </div>
+            <p class="summary">A large-scale annotated symbolic dataset for studying temporal structure and orchestration in
+                classical symphonies.</p>
+        </div>
+
+        <!-- <div class="research-entry">
+                    <div class="conf">TISMIR (under review)</div>
+                    <h3 class="title">Improving Motif Discovery of Symbolic Polyphonic Music</h3>
+                    <div class="authors">Yu-Chia Kuo (co-author)</div>
+                    <div class="links">
+                        <span>Under review</span>
+                    </div>
+                    <p class="summary">Enhances motif detection in symbolic polyphonic music using pattern extraction and semantic
+                        alignment.</p>
+                </div> -->
+
+        <div class="research-entry">
+            <div class="conf">TAAI 2024</div>
+            <h3 class="title">A Study on Synthesizing Expressive Violin Performances: Approaches and Comparisons</h3>
+            <div class="authors">Hung, Tzu-Yun, Jui-Te Wu, Yu-Chia Kuo, Yo-Wei Hsiao, Ting-Wei Lin, and Li Su</div>
+            <div class="links">
+                <a href="https://arxiv.org/abs/2406.18089" target="_blank">[ArXiv]</a>
+            </div>
+            <p class="summary">Compares expressive synthesis methods for violin using machine learning and performance
+                parameterization.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer class="custom-footer pt-5 pb-4 mt-5">
+    <div class="container text-center">
+      <a href="https://www.youtube.com/channel/UCFdI5R6o6_9YCIt56tPUfcg" target="_blank"><i class="bi bi-youtube mx-2"></i></a>
+      <a href="https://github.com/kyuchia" target="_blank"><i class="bi bi-github mx-2"></i></a>
+      <a href="https://www.linkedin.com/in/yu-chia-kuo-b45307237" target="_blank"><i class="bi bi-linkedin mx-2"></i></a>
+      <a href="mailto:kuodmusic@gmail.com"><i class="bi bi-envelope-fill mx-2"></i></a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+  <script src="../js/scripts.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const filters = document.querySelectorAll('.portfolio-filter');
+      const items = document.querySelectorAll('.portfolio-item');
+
+      filters.forEach(filter => {
+        filter.addEventListener('click', () => {
+          const selected = filter.getAttribute('data-filter');
+          items.forEach(item => {
+            const category = item.getAttribute('data-category');
+            item.style.display =
+              selected === 'all' || selected === category ? 'block' : 'none';
+          });
+        });
+      });
+    });
+</script>
+
+<!-- Load JSON content into #json-content -->
+<script src="../js/json-script.js"></script>
+
+<!-- Load thumbnail gallery -->
+<script src="../js/research.js"></script>
+
+
+</body>
+</html>
