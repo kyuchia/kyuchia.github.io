@@ -61,9 +61,9 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-/* 主題顏色（深色模式為預設） */
-  --bs-body-color: #f0f0f0;    /* 柔和白，避免太刺眼 */
-  --bs-body-bg: #121212; /* 黑底（soft black） */
+/* 主題顏色（淺色模式為預設） */
+  --bs-body-color: #121212;
+  --bs-body-bg: #f0f0f0;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -79,10 +79,11 @@
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 /* header/footer 顏色（深色模式為預設） */
-  --header-bg: #121212;
-  --footer-bg: #121212;
-  --header-text: #fcfcfc; /* 原為 #f0f0f0，已更新 */
-  --footer-text: #fcfcfc;
+  --header-bg: #f0f0f0;
+  --footer-bg: #f0f0f0;
+  --header-text: #121212; /* 原為 #f0f0f0，已更新 */
+  --footer-text: #121212;
+
 }
 
 *,
@@ -11022,7 +11023,7 @@ header.masthead {
   padding-bottom: calc(10rem - 4.5rem);
   /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg"); */
   background: url("https://i.imgur.com/fD5h5ng.jpg");
-  opacity: 0.93;
+  opacity: 0.98;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11098,14 +11099,14 @@ body {
 
 /* 主題變數覆蓋（Light & Dark）*/
 body.light-mode {
-    --bs-body-bg: #fafafa;
-    --bs-body-color: #212529;
+    --bs-body-bg: #f0f0f0;
+    --bs-body-color: #121212; /* #212529 */
 
-    --header-bg: #fafafa;
-    --header-text: #212529;
+    --header-bg: #f0f0f0;
+    --header-text: #121212;
 
-    --footer-bg: #fafafa;
-    --footer-text: #212529;
+    --footer-bg: #f0f0f0;
+    --footer-text: #121212;
 
     --bs-link-color: #9ca2c9;
     --bs-link-hover-color: #1276a9;
