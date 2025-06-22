@@ -10834,7 +10834,8 @@ textarea.form-control-lg {
 }
 html {
   height: 100%;
-  scroll-padding-top: calc(4.5rem - 1px);
+  /* scroll-padding-top: calc(4.5rem - 1px); */
+  scroll-padding-top: 6.5rem;
 }
 
 body {
@@ -11176,7 +11177,9 @@ body.dark-mode {
 }
 
 
-
+.page-content {
+    padding-top: 7rem;
+}
 
 
 .btn-outline-custom {
@@ -11323,9 +11326,9 @@ body.dark-mode {
    Research Page Specific Styles
    ============================ */
 
-.research-page section {
+/* .research-page section {
     padding-top: 6rem;
-}
+} */
 
 
 @media (max-width: 768px) {
