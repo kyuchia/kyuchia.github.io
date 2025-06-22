@@ -63,7 +63,7 @@
   --bs-body-line-height: 1.5;
 /* 主題顏色（淺色模式為預設） */
   --bs-body-color: #121212;
-  --bs-body-bg: #f0f0f0;
+  --bs-body-bg: #fafafa;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -79,8 +79,8 @@
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 /* header/footer 顏色（深色模式為預設） */
-  --header-bg: #f0f0f0;
-  --footer-bg: #f0f0f0;
+  --header-bg: #fafafa;
+  --footer-bg: #fafafa;
   --header-text: #121212; /* 原為 #f0f0f0，已更新 */
   --footer-text: #121212;
 
@@ -11099,13 +11099,13 @@ body {
 
 /* 主題變數覆蓋（Light & Dark）*/
 body.light-mode {
-    --bs-body-bg: #f0f0f0;
+    --bs-body-bg: #fafafa;
     --bs-body-color: #121212; /* #212529 */
 
-    --header-bg: #f0f0f0;
+    --header-bg: #fafafa;
     --header-text: #121212;
 
-    --footer-bg: #f0f0f0;
+    --footer-bg: #fafafa;
     --footer-text: #121212;
 
     --bs-link-color: #6b70aa ;
@@ -11114,13 +11114,13 @@ body.light-mode {
 
 body.dark-mode {
     --bs-body-bg: #121212;
-    --bs-body-color: #f0f0f0;
+    --bs-body-color: #fafafa;
 
     --header-bg: #121212;
-    --header-text: #f0f0f0;
+    --header-text: #fafafa;
 
     --footer-bg: #121212;
-    --footer-text: #f0f0f0;
+    --footer-text: #fafafa;
 
     --bs-link-color: #6b70aa ;
     --bs-link-hover-color: #1276a9;
@@ -11270,8 +11270,9 @@ body.dark-mode {
 }
 
 
-
-/* project-page */
+/* ============================
+   Portfolio project-page Specific Styles
+   ============================ */
 
 .project-page .container h1:first-child {
     margin-top: 2rem; /* 距離 Navbar */
@@ -11318,7 +11319,10 @@ body.dark-mode {
     /* rounded-3 */ }
 
 
-/* research page */
+/* ============================
+   Research Page Specific Styles
+   ============================ */
+
 .research-page section {
     padding-top: 6rem;
 }
@@ -11331,8 +11335,8 @@ body.dark-mode {
 }
 
 .research-entry {
-    background-color: rgba(0, 0, 0, 0.03); /* light gray overlay */ /* 0.03 */
-    border: 1px solid rgba(0, 0, 0, 0.08); /* soft border */
+    background-color: rgba(0, 0, 0, 0.03);/* light gray overlay *//* 0.03 */
+    border: 1px solid rgba(0, 0, 0, 0.08);/* soft border */
     border-radius: 17px; /* 12px */
     padding: 1.8rem 1.5rem;
     margin-bottom: 2.5rem;
@@ -11340,10 +11344,10 @@ body.dark-mode {
 }
 
 
-
 .research-entry:hover {
-    background-color: rgba(0, 0, 0, 0.05); /* slightly deeper on hover */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* subtle lift */
+    background-color: rgba(0, 0, 0, 0.05);/* slightly deeper on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);/* subtle lift */
+
 }
 
 .research-entry .conf {
@@ -11361,7 +11365,7 @@ body.dark-mode {
 
 .research-entry .authors {
     font-size: 0.95rem;
-    color: #666; /* softened gray for authors */
+    color: #444; /* softened gray for authors */
     margin-bottom: 0.6rem;
 }
 
@@ -11388,6 +11392,44 @@ body.dark-mode {
     margin-bottom: 3rem;
     font-size: 2rem;
     font-weight: 700;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    /* margin: 30px;/*
+    /* padding-top: 100px;  optional: give space below navbar */
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+.toggle-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 0;
+    outline: none;
+}
+
+.toggle-buttons button:hover {
+    color: #1276a9;
+}
+
+/* Style the icons inside the buttons */
+.toggle-buttons i {
+    color: #555;
+    /* default (inactive) */
+    font-size: 1.4em;
+    transition: color 0.1s ease-in-out;
+}
+
+/* Active icon is blue */
+.toggle-buttons i.active {
+    color: #1276a9;
 }
 
 
