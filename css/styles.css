@@ -11390,8 +11390,6 @@ body.dark-mode {
     font-weight: 700;
 }
 
-.hidden {
-    display: none; }
 
 /* replace:
 #f4623a → #6b70aa  (for default link color)
