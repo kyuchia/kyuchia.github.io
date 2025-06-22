@@ -182,6 +182,15 @@
 <!-- Load thumbnail gallery -->
 <script src="../js/research.js"></script>
 
+<!-- Fallback trigger -->
+<script>
+    window.addEventListener("DOMContentLoaded", function () {
+        if (typeof showView === "function") {
+            showView('text');
+        }
+    });
+</script>
+
 
 </body>
 </html>
