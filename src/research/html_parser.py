@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup
 import json
 
 # ==== CONFIG ====
-input_html_path = "research/zotero_export/publication.html"
-output_json_path = "research/content.json"
+input_html_path = "src/research/zotero_export/publication.html"
+output_json_path = "src/research/content.json"
 # ================
 
 with open(input_html_path, encoding='utf-8') as f:
