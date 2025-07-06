@@ -16,11 +16,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to turn DOI/URL into clickable links
     function makeLinksClickable(text) {
-        const urlRegex = /(https?:\/\/[^\s.,!?;:(){}\[\]<>"]+)([.,!?;:]?)/g;
-        return text.replace(urlRegex, function (url) {
-            return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+        const urlRegex = /(https?:\/\/[^\s]+)/g;
+        return text.replace(urlRegex, function (fullMatch) {
+            // 把末尾標點（如 . , ; ) ] "）移除，保留在外面
+            const match = fullMatch.match(/^(https?:\/\/[^\s]*?)([.,!?;:)"')\]]*)?$/);
+            if (match) {
+                const url = match[1];
+                const trailing = match[2] || '';
+                return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>${trailing}`;
+            }
+            return fullMatch;
         });
     }
+
 
     // Function to display JSON content in the HTML
     function displayContent(data) {
