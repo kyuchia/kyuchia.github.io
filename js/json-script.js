@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to turn DOI/URL into clickable links
     function makeLinksClickable(text) {
-        const urlRegex = /(https?:\/\/[^\s]+)/g;
+        const urlRegex = /(https?:\/\/[^\s.,!?;:(){}\[\]<>"]+)([.,!?;:]?)/g;
         return text.replace(urlRegex, function (url) {
             return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
         });
