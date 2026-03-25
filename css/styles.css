@@ -63,7 +63,7 @@
   --bs-body-line-height: 1.5;
 /* 主題顏色（淺色模式為預設） */
   --bs-body-color: #121212;
-  --bs-body-bg: #F3F1EC;
+  --bs-body-bg: #fafafa;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -11100,7 +11100,7 @@ body {
 
 /* 主題變數覆蓋（Light & Dark）*/
 body.light-mode {
-    --bs-body-bg: #F3F1EC;
+    --bs-body-bg: #fafafa;
     --bs-body-color: #121212; /* #212529 */
 
     --header-bg: #fafafa;
@@ -11219,7 +11219,6 @@ body.dark-mode {
     position: relative;
     height: 250px;
     overflow: hidden;
-    border-radius: 12px;
 }
 
 /* Thumbnail image styling */
