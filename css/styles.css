@@ -11443,3 +11443,17 @@ body {
 
 
 
+@media (max-width: 576px) {
+    .portfolio-image-wrapper {
+        height: 200px;
+    }
+
+    .portfolio-caption strong {
+        font-size: 1rem;
+    }
+
+    #portfolio .px-4 {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+}
