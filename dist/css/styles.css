@@ -11220,8 +11220,9 @@ body.dark-mode {
 /* Wrapper around each image — controls thumbnail size */
 .portfolio-image-wrapper {
     position: relative;
-    height: 250px;
+    aspect-ratio: 1.3;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 /* Thumbnail image styling */
@@ -11230,6 +11231,13 @@ body.dark-mode {
     height: 100%;
     object-fit: cover;
     display: block;
+    transition: transform 0.6s cubic-bezier(0.25, 0, 0.25, 1), filter 0.6s cubic-bezier(0.25, 0, 0.25, 1);
+    will-change: transform;
+}
+
+.portfolio-item:hover .portfolio-image-wrapper img {
+    transform: scale(1.05);
+    filter: brightness(0.87);
 }
 
 
@@ -11421,10 +11429,6 @@ body {
 
 
 @media (max-width: 576px) {
-    .portfolio-image-wrapper {
-        height: 200px;
-    }
-
     #portfolio .px-4 {
         padding-left: 0.5rem !important;
         padding-right: 0.5rem !important;
