@@ -220,6 +220,8 @@
 
       filters.forEach(filter => {
         filter.addEventListener('click', () => {
+          filters.forEach(f => f.classList.remove('active'));
+          filter.classList.add('active');
           const selected = filter.getAttribute('data-filter');
           items.forEach(item => {
             const category = item.getAttribute('data-category');

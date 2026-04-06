@@ -11198,13 +11198,16 @@ body.dark-mode {
 }
 
 
-
 /* Filter label styles (top category buttons) */
 .portfolio-filter {
     font-weight: bold;
     cursor: pointer;
     margin-right: 15px;
     user-select: none;
+}
+
+.portfolio-filter.active {
+    color: #1276a9;
 }
 
 /* Portfolio layout */
@@ -11229,47 +11232,21 @@ body.dark-mode {
     display: block;
 }
 
-/* Semi-transparent overlay effect on hover */
-.portfolio-image-wrapper::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    /* ← use white: rgba(255,255,255,0.4) if preferred */
-    opacity: 0;
-    transition: opacity 0.4s ease;
-    z-index: 1;
-}
 
-.portfolio-image-wrapper:hover::before {
-    opacity: 1;
-}
-
-/* Project title caption */
+/* Project title caption — always visible below image */
 .portfolio-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
     text-align: center;
-    opacity: 0;
-    z-index: 2;
-    transition: opacity 0.4s ease;
-    pointer-events: none;
-}
-
-/* Show caption only when hovering on wrapper */
-.portfolio-image-wrapper:hover+.portfolio-caption {
-    opacity: 1;
+    padding: 10px 4px 4px;
 }
 
 .portfolio-caption strong {
-    font-size: 1.2rem;
-    /* You can increase to 1.5rem or more */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.portfolio-item a {
+    text-decoration: none;
 }
 
 
@@ -11446,10 +11423,6 @@ body {
 @media (max-width: 576px) {
     .portfolio-image-wrapper {
         height: 200px;
-    }
-
-    .portfolio-caption strong {
-        font-size: 1rem;
     }
 
     #portfolio .px-4 {
