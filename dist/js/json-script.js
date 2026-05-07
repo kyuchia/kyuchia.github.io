@@ -43,9 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     let entryWithLinks = makeLinksClickable(entry);
 
                     // Bold name variations
-                    entryWithLinks = entryWithLinks
-                        .replace(/Kuo,?\s*Yu[-\s]?Chia/g, '<strong>Kuo, Yu-Chia</strong>')
-                        .replace(/Yu[-\s]?Chia\s*Kuo/g, '<strong>Yu-Chia Kuo</strong>')
+                    entryWithLinks = entryWithLinks.replace(/Kuo,?\s*Yu[-\s]?Chia|Yu[-\s]?Chia\s*Kuo/g, '<strong>Yu-Chia Kuo</strong>')
 
                     html += `<li><p>${entryWithLinks}</p></li>`;
                 }
