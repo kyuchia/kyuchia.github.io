@@ -18,8 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function makeLinksClickable(text) {
         const urlRegex = /(https?:\/\/[^\s]+)/g;
         return text.replace(urlRegex, function (fullMatch) {
-            // 把末尾標點（如 . , ; ) ] "）移除，保留在外面
-            const match = fullMatch.match(/^(https?:\/\/[^\s]*?)([.,!?;:)"')\]]*)?$/);
+            const match = fullMatch.match(/^(https?:\/\/[^\s]*?)([.,!?;:)"'\]]*)?$/);
             if (match) {
                 const url = match[1];
                 const trailing = match[2] || '';
@@ -34,13 +33,12 @@ document.addEventListener('DOMContentLoaded', function () {
     function displayContent(data) {
         let container = document.getElementById('json-content');
         let html = '';
-        let years = Object.keys(data).reverse();
+        let keys = Object.keys(data);
 
-        for (let key of years) {
+        for (let key of keys) {
             if (data.hasOwnProperty(key)) {
-                const year = key;
-                html += `<h2 id="${year}">${year}</h2><hr /><ul>`;
-                for (let entry of data[year]) {
+                html += `<h2 id="${key}">${key}</h2><hr /><ul>`;
+                for (let entry of data[key]) {
                     // Make links clickable
                     let entryWithLinks = makeLinksClickable(entry);
 
@@ -57,6 +55,5 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Load JSON content on page load
-    // loadJSON();
     setTimeout(loadJSON, 50);
 });
