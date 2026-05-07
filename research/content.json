@@ -1,7 +1,7 @@
 {
   "Journal Articles": [
     "Wang, Jun-You, Yu-Chia Kuo, and Li Su. 2025. \u201cImproving Motif Discovery of Symbolic Polyphonic Music with Motif Note Identification.\u201d Transactions of the International Society for Music Information Retrieval 8 (1). https://transactions.ismir.net/articles/10.5334/tismir.250",
-    "Huang, Yu-Fen, Nikki Moran, Simon Coleman, et al. 2024. \u201cMOSA: Music Motion with Semantic Annotation Dataset for Cross-Modal Music Processing.\u201d IEEE/ACM Transactions on Audio, Speech, and Language Processing."
+    "Huang, Yu-Fen, Nikki Moran, Simon Coleman, Jon Kelly, Shun-Hwa Wei, Po-Yin Chen, Yun-Hsin Huang, Tsung-Ping Chen, Yu-Chia Kuo, Yu-Chi Wei, Chih-Hsuan Li, Da-Yu Huang, Hsuan-Kai Kao, Ting-Wei Lin, and Li Su. 2024. \u201cMOSA: Music Motion with Semantic Annotation Dataset for Cross-Modal Music Processing.\u201d IEEE/ACM Transactions on Audio, Speech, and Language Processing 32: 4157\u20134170. https://doi.org/10.1109/TASLP.2024.3407529"
   ],
   "Peer-Reviewed Conference Papers": [
     "Kuo, Yu-Chia, and Tak-Cheung Hui. 2026. \u201cWhale Echo Dialogues: Simulating Acoustic Encounters Between Whales, Humans, and Machines.\u201d In Proceedings of the 2025 12th International Conference on Digital and Interactive Arts, ARTECH \u201925. https://doi.org/10.1145/3773699.3774353",
@@ -13,6 +13,6 @@
   ],
   "Posters & Demos": [
     "Kun Fang, Kyrie Bouressa, Yu-Chia Kuo, Anna de Bakker, and Ichiro Fujinaga. 2025. \u201cUniversal Musical Instrument Lexicon: A Crowdsourced Platform for Expanding Multilingual Vocabularies and Enhancing Global Access to Musical Instrument Metadata.\u201d Poster accepted by 12th International Conference on Digital Libraries for Musicology, Sogang University, Seoul, South Korea.",
-    "Zih-Syuan Lin*, Yu-Chia Kuo*, Tzu-Yun Hung, et al. 2024. \u201cS3: A Symbolic Music Dataset for Computational Music Analysis of Symphonies.\u201d Paper presented at Extended Abstracts for the Late Breaking Demo Session of the 25th Int. Society for Music Information Retrieval Conference, San Francisco, United States. https://ismir2024program.ismir.net/lbd_463.html"
+    "Zih-Syuan Lin*, Yu-Chia Kuo*, Tzu-Yun Hung, Wei-Yang Lin, Ya-Hsuan Chu, Ting-Kang Wang, Jing-Heng Huang, Chien Chang, Christofer Julio, Gloria Hsieh, and Li Su. 2024. \u201cS3: A Symbolic Music Dataset for Computational Music Analysis of Symphonies.\u201d Extended Abstracts for the Late-Breaking Demo Session of the 25th International Society for Music Information Retrieval Conference, San Francisco, United States. https://ismir2024program.ismir.net/lbd_463.html"
   ]
 }
