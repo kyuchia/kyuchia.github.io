@@ -25,6 +25,10 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://kyuchia.github.io/portfolio/project-sillage.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://kyuchia.github.io/portfolio/project-treerings.html</loc>
         <priority>0.7</priority>
     </url>
